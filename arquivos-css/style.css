@@ -4,13 +4,13 @@
     
     @font-face {
         font-family: Alphacrisp;
-        src: url(../fontes/alpha_crisp/Alphacrisp.ttf);
+        src: url(alpha_crisp/Alphacrisp.ttf);
         font-family: balkeno;
-        src: url(../fontes/balkeno/Balkeno.ttf)
+        src: url(balkeno/Balkeno.ttf)
     }
     
     .header-site {
-        background-image: url(../img/boat-3765324_1920.jpg);
+        background-image: url(boat-3765324_1920.jpg);
         background-position: center top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -51,7 +51,7 @@
     }
     
     .img-site {
-        background-image: url(../img/banner-1248181_1920.jpg);
+        background-image: url(banner-1248181_1920.jpg);
         background-position: center top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -67,7 +67,7 @@
     }
     
     .contact-site {
-        background-image: url(../img/ash-2179184_1920.jpg);
+        background-image: url(ash-2179184_1920.jpg);
         background-position: center top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -103,13 +103,19 @@
     
     #img-footer {
         height: 70px;
-        padding-left: 15%;
+        margin-left: 35%;
         padding: 2px;
+    }
+
+    [data-icon] {
+        margin-left: 10px;
+        margin-bottom: 10px;
     }
     
     #production {
         padding-left: 15%;
         padding-top: 10px;
+        margin-bottom: 10px;
     }
     /* efeito de scroll */
     

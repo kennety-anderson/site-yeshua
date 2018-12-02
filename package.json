@@ -1,0 +1,20 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "\"Site Yeshua de roupas evangelicas\"",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennety-anderson/site-yeshua.git"
+  },
+  "author": "kennety anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kennety-anderson/site-yeshua/issues"
+  },
+  "homepage": "https://github.com/kennety-anderson/site-yeshua#readme"
+}
