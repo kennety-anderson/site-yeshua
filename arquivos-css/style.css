@@ -1,0 +1,133 @@
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    @font-face {
+        font-family: Alphacrisp;
+        src: url(../fontes/alpha_crisp/Alphacrisp.ttf);
+        font-family: balkeno;
+        src: url(../fontes/balkeno/Balkeno.ttf)
+    }
+    
+    .header-site {
+        background-image: url(../img/boat-3765324_1920.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        /* height: 65%; */
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    
+    .about-site {
+        padding-top: 5%;
+        padding-bottom: 4%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #texto-sobre {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 50%;
+        margin-bottom: 100px;
+    }
+
+    
+    .cfm {
+        font-family: balkeno;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #c-masc {
+        margin-top: 150px;
+    }
+    
+    img {
+        max-height: 300px;
+        border-radius: 10px;
+    }
+    
+    .img-site {
+        background-image: url(../img/banner-1248181_1920.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 15%;
+    }
+    
+    .photos-site {
+        padding-top: 6%;
+        padding-bottom: 3%;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    
+    .contact-site {
+        background-image: url(../img/ash-2179184_1920.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        /* padding-top: 8%;
+        padding-bottom: 8%; */
+        padding: 5%;
+    }
+    
+    h1 {
+        font-size: 600%;
+        font-family: fantasy;
+        color: aliceblue;
+    }
+    
+    #sobreText {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    
+    #sobre {
+        height: 12%;
+    }
+    
+    #titleContact {
+        padding-top: 2%;
+    }
+    
+    footer {
+        padding: 1%;
+        padding-top: 30px;
+    }
+    
+    #img-footer {
+        height: 70px;
+        padding-left: 15%;
+        padding: 2px;
+    }
+    
+    #production {
+        padding-left: 15%;
+        padding-top: 10px;
+    }
+    /* efeito de scroll */
+    
+    [data-anime] {
+        opacity: 0;
+        transition: .7s;
+    }
+    
+    [data-anime="top"] {
+        transform: translate3d(0px, 100px, 0px);
+    }
+    
+    [data-anime].animate {
+        opacity: 1;
+        transform: translate3d(0px, 0px, 0px);
+    }
+    
+    #titleContact {
+        margin-bottom: 3%;
+        text-transform: uppercase;
+    }
